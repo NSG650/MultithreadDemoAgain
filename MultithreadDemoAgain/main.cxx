@@ -86,6 +86,5 @@ void draw(HDC hdc) {
 		}
 		x += dx;
 		y += dy;
-		Sleep(1);
 	}
 }
