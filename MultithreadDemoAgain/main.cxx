@@ -1,9 +1,6 @@
 #include <windows.h>
 #include <gdiplus.h>
 
-#define getrandom( min, max ) (SHORT)((rand() % (int)(((max) + 1) - \
-                               (min))) + (min))
-
 LRESULT CALLBACK WindowProcessMessages(HWND hwnd, UINT msg, WPARAM param, LPARAM lparam);
 void draw(HDC hdc);
 
